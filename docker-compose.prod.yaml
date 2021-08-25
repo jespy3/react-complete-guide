@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  prod:
+    container_name: prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    image: prod
+    ports:
+      - 1337:80
