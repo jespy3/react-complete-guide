@@ -25,6 +25,14 @@ To build a production image and run it in a container:
 Runs a production version of your app and serves it in a local nginx server.
 Open [http://localhost:1337](https://localhost:1337) to view it in the browser
 
+
+## CI/CD
+
+Continuous Integration/Continuous Deployment (CI/CD) is currently set up on Heroku.
+
+See [CI/CD Setup](docs/cicd-setup.md) for steps taken to set up this apps CI/CD pipeline.
+
+
 ## Other commands
 
 ### `yarn test`
